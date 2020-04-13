@@ -1,0 +1,836 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="377fa133-3123-48f4-a471-b1322e8dd0a5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/calib3d.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/calib3d/calib3d.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/calib3d/calib3d_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/affine.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/base.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/bindings_utils.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/bufferpool.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/check.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/core.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/core_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/cuda.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/cuda.inl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/cuda/block.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/cuda/border_interpolate.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/cuda/color.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/cuda/common.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/cuda/datamov_utils.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/cuda/detail/color_detail.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/cuda/detail/reduce.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/cuda/detail/reduce_key_val.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/cuda/detail/transform_detail.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/cuda/detail/type_traits_detail.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/cuda/detail/vec_distance_detail.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/cuda/dynamic_smem.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/cuda/emulation.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/cuda/filters.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/cuda/funcattrib.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/cuda/functional.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/cuda/limits.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/cuda/reduce.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/cuda/saturate_cast.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/cuda/scan.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/cuda/simd_functions.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/cuda/transform.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/cuda/type_traits.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/cuda/utility.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/cuda/vec_distance.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/cuda/vec_math.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/cuda/vec_traits.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/cuda/warp.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/cuda/warp_reduce.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/cuda/warp_shuffle.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/cuda_stream_accessor.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/cuda_types.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/cv_cpu_dispatch.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/cv_cpu_helper.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/cvdef.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/cvstd.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/cvstd.inl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/cvstd_wrapper.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/directx.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/eigen.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/fast_math.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/hal/hal.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/hal/interface.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/hal/intrin.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/hal/intrin_avx.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/hal/intrin_cpp.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/hal/intrin_forward.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/hal/intrin_neon.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/hal/intrin_sse.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/hal/intrin_sse_em.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/hal/intrin_vsx.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/mat.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/mat.inl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/matx.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/neon_utils.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/ocl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/ocl_genbase.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/opencl/ocl_defs.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/opencl/opencl_info.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/opencl/opencl_svm.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/opencl/runtime/autogenerated/opencl_clamdblas.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/opencl/runtime/autogenerated/opencl_clamdfft.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/opencl/runtime/autogenerated/opencl_core.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/opencl/runtime/autogenerated/opencl_core_wrappers.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/opencl/runtime/autogenerated/opencl_gl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/opencl/runtime/autogenerated/opencl_gl_wrappers.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/opencl/runtime/opencl_clamdblas.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/opencl/runtime/opencl_clamdfft.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/opencl/runtime/opencl_core.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/opencl/runtime/opencl_core_wrappers.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/opencl/runtime/opencl_gl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/opencl/runtime/opencl_gl_wrappers.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/opencl/runtime/opencl_svm_20.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/opencl/runtime/opencl_svm_definitions.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/opencl/runtime/opencl_svm_hsa_extension.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/opengl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/operations.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/optim.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/ovx.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/persistence.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/saturate.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/softfloat.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/sse_utils.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/traits.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/types.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/types_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/utility.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/utils/filesystem.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/utils/logger.defines.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/utils/logger.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/utils/trace.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/va_intel.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/version.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/core/vsx_utils.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/cvconfig.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/dnn.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/dnn/all_layers.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/dnn/dict.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/dnn/dnn.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/dnn/dnn.inl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/dnn/layer.details.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/dnn/layer.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/dnn/shape_utils.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/dnn/utils/inference_engine.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/dnn/version.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/features2d.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/features2d/features2d.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/features2d/hal/interface.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/flann.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/flann/all_indices.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/flann/allocator.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/flann/any.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/flann/autotuned_index.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/flann/composite_index.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/flann/config.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/flann/defines.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/flann/dist.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/flann/dummy.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/flann/dynamic_bitset.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/flann/flann.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/flann/flann_base.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/flann/general.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/flann/ground_truth.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/flann/heap.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/flann/hierarchical_clustering_index.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/flann/index_testing.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/flann/kdtree_index.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/flann/kdtree_single_index.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/flann/kmeans_index.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/flann/linear_index.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/flann/logger.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/flann/lsh_index.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/flann/lsh_table.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/flann/matrix.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/flann/miniflann.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/flann/nn_index.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/flann/object_factory.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/flann/params.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/flann/random.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/flann/result_set.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/flann/sampling.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/flann/saving.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/flann/simplex_downhill.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/flann/timer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/highgui.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/highgui/highgui.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/highgui/highgui_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/imgcodecs.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/imgcodecs/imgcodecs.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/imgcodecs/imgcodecs_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/imgcodecs/ios.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/imgcodecs/legacy/constants_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/imgproc.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/imgproc/detail/gcgraph.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/imgproc/hal/hal.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/imgproc/hal/interface.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/imgproc/imgproc.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/imgproc/imgproc_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/imgproc/types_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/ml.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/ml/ml.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/ml/ml.inl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/objdetect.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/objdetect/detection_based_tracker.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/objdetect/objdetect.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/opencv.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/opencv_modules.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/photo.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/photo/cuda.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/photo/legacy/constants_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/photo/photo.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/stitching.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/stitching/detail/autocalib.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/stitching/detail/blenders.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/stitching/detail/camera.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/stitching/detail/exposure_compensate.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/stitching/detail/matchers.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/stitching/detail/motion_estimators.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/stitching/detail/seam_finders.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/stitching/detail/timelapsers.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/stitching/detail/util.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/stitching/detail/util_inl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/stitching/detail/warpers.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/stitching/detail/warpers_inl.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/stitching/warpers.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/video.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/video/background_segm.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/video/legacy/constants_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/video/tracking.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/video/video.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/videoio.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/videoio/cap_ios.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/videoio/legacy/constants_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/videoio/registry.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/videoio/videoio.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/cpp/opencv2/videoio/videoio_c.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libopencv_java3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libopencv_java4.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/lint.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/aidl/org/opencv/engine/OpenCVEngineInterface.aidl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/android/AsyncServiceHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/android/BaseLoaderCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/android/Camera2Renderer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/android/CameraBridgeViewBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/android/CameraGLRendererBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/android/CameraGLSurfaceView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/android/CameraRenderer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/android/FpsMeter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/android/InstallCallbackInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/android/JavaCamera2View.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/android/JavaCameraView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/android/LoaderCallbackInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/android/OpenCVLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/android/StaticHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/android/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/calib3d/Calib3d.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/calib3d/StereoBM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/calib3d/StereoMatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/calib3d/StereoSGBM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/core/Algorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/core/Core.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/core/CvException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/core/CvType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/core/DMatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/core/KeyPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/core/Mat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/core/MatOfByte.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/core/MatOfDMatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/core/MatOfDouble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/core/MatOfFloat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/core/MatOfFloat4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/core/MatOfFloat6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/core/MatOfInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/core/MatOfInt4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/core/MatOfKeyPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/core/MatOfPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/core/MatOfPoint2f.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/core/MatOfPoint3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/core/MatOfPoint3f.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/core/MatOfRect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/core/MatOfRect2d.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/core/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/core/Point3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/core/Range.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/core/Rect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/core/Rect2d.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/core/RotatedRect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/core/Scalar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/core/Size.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/core/TermCriteria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/core/TickMeter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/dnn/DictValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/dnn/Dnn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/dnn/Layer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/dnn/Net.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/features2d/AKAZE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/features2d/AgastFeatureDetector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/features2d/BFMatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/features2d/BOWImgDescriptorExtractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/features2d/BOWKMeansTrainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/features2d/BOWTrainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/features2d/BRISK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/features2d/DescriptorExtractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/features2d/DescriptorMatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/features2d/FastFeatureDetector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/features2d/Feature2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/features2d/FeatureDetector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/features2d/Features2d.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/features2d/FlannBasedMatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/features2d/GFTTDetector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/features2d/KAZE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/features2d/MSER.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/features2d/ORB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/features2d/Params.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/imgcodecs/Imgcodecs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/imgproc/CLAHE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/imgproc/Imgproc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/imgproc/LineSegmentDetector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/imgproc/Moments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/imgproc/Subdiv2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/ml/ANN_MLP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/ml/ANN_MLP_ANNEAL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/ml/Boost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/ml/DTrees.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/ml/EM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/ml/KNearest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/ml/LogisticRegression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/ml/Ml.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/ml/NormalBayesClassifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/ml/ParamGrid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/ml/RTrees.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/ml/SVM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/ml/SVMSGD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/ml/StatModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/ml/TrainData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/objdetect/BaseCascadeClassifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/objdetect/CascadeClassifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/objdetect/HOGDescriptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/objdetect/Objdetect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/osgi/OpenCVInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/osgi/OpenCVNativeLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/photo/AlignExposures.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/photo/AlignMTB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/photo/CalibrateCRF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/photo/CalibrateDebevec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/photo/CalibrateRobertson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/photo/MergeDebevec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/photo/MergeExposures.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/photo/MergeMertens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/photo/MergeRobertson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/photo/Photo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/photo/Tonemap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/photo/TonemapDrago.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/photo/TonemapDurand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/photo/TonemapMantiuk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/photo/TonemapReinhard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/utils/Converters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/video/BackgroundSubtractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/video/BackgroundSubtractorKNN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/video/BackgroundSubtractorMOG2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/video/DenseOpticalFlow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/video/DualTVL1OpticalFlow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/video/FarnebackOpticalFlow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/video/KalmanFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/video/SparseOpticalFlow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/video/SparsePyrLKOpticalFlow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/video/Video.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/videoio/VideoCapture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/videoio/VideoWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/videoio/Videoio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/res/values/attrs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Android.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Android.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/cpp/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/cpp/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="LNGNWAUH27" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/org/dp/facedetection/MainActivity.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="624">
+              <caret line="32" column="53" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="53" />
+              <folding>
+                <element signature="e#30#381#0" expanded="true" />
+                <element signature="e#481#654#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/cpp/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/cpp/facedetectcnn-jni.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#16#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>FACE_RECT_THICKNESS</find>
+      <find>libopencv_java4</find>
+      <find>loadLibrary</find>
+      <find>face</find>
+      <find>matAddr</find>
+      <find>libopencv_java3</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/settings.gradle" />
+        <option value="$PROJECT_DIR$/openCVLibrary401/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/cpp/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/org/dp/facedetection/MainActivity.kt" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_1_1_0_alpha01_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_0_0_beta01_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_common_2_0_0_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_beta01_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_asynclayoutinflater_asynclayoutinflater_1_0_0_beta01_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_collection_collection_1_0_0_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_concurrent_concurrent_futures_1_0_0_alpha02_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_1_1_3_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_solver_1_1_3_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_0_0_beta01_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_1_0_alpha04_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_ktx_1_1_0_alpha04_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_beta01_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_beta01_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_beta01_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_beta01_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_0_0_beta01_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_beta01_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_ui_1_0_0_beta01_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_beta01_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_0_0_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_beta01_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_0_0_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_0_0_beta01_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_beta01_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_beta01_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_print_print_1_0_0_beta01_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_slidingpanelayout_slidingpanelayout_1_0_0_beta01_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_0_0_beta01_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_1_0_alpha4_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_1_0_alpha4_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_monitor_1_1_0_alpha4_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_runner_1_1_0_alpha4_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_0_0_beta01_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_0_0_beta01_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_0_alpha01_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_beta01_aar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_2_0_1_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_listenablefuture_1_0_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_javawriter_2_1_1_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__javax_inject_javax_inject_1_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__net_sf_kxml_kxml2_2_3_0_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_integration_1_3_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_annotations_13_0_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_3_21_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_21_jar.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_3_21_jar.xml" />
+        <option value="$PROJECT_DIR$/openCVLibrary401/openCVLibrary401.iml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="65" />
+    <option name="y" value="-4" />
+    <option name="width" value="971" />
+    <option name="height" value="1084" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Android" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="Android" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="Android" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Android" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Android" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="release" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Android" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="not.eligible.for.single.variant.sync" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="PsdUISettings">
+    <option name="LAST_EDITED_BUILD_TYPE" value="release" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/app/src/main/cpp" />
+      <recent name="$PROJECT_DIR$/app/src/main/jniLibs" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="377fa133-3123-48f4-a471-b1322e8dd0a5" name="Default Changelist" comment="" />
+      <created>1583459508468</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583459508468</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="1" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.22866704" />
+      <window_info id="Structure" order="3" side_tool="true" />
+      <window_info id="Build Variants" order="4" side_tool="true" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Resources Explorer" order="7" />
+      <window_info id="Favorites" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="0" />
+      <window_info anchor="bottom" id="TODO" order="1" />
+      <window_info anchor="bottom" id="Android Profiler" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.32901832" />
+      <window_info anchor="bottom" id="Terminal" order="4" weight="0.32795697" />
+      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="bottom" id="Build" order="7" visible="true" weight="0.32901832" />
+      <window_info anchor="bottom" id="Logcat" order="8" weight="0.37324703" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" weight="0.32961518" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Gradle" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/proguard-rules.pro">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openCVLibrary341/src/main/res/values/attrs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.gradle/gradle.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/opencv2/ml/ml.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/CMakeLists_bak.txt" />
+    <entry file="file://$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/core/MatOfRect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding>
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/imgproc/Imgproc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="2856" column="24" selection-start-line="2856" selection-start-column="15" selection-end-line="2856" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openCVLibrary401/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openCVLibrary341/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/dp/facedetection/Face.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/org/dp/facedetection/MainActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="32" column="53" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="53" />
+          <folding>
+            <element signature="e#30#381#0" expanded="true" />
+            <element signature="e#481#654#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/facedetectcnn-jni.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/cpp/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

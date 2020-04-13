@@ -1,0 +1,157 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/ybli/libfacedetection/mobile/Android/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /home/ybli/libfacedetection/mobile/Android/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /home/ybli/libfacedetection/mobile/Android/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /home/ybli/libfacedetection/mobile/Android/app/src/main/AndroidManifest.xml:2:1-23:12
+MERGED from [:openCVLibrary401] /home/ybli/libfacedetection/mobile/Android/openCVLibrary401/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.0.0-beta01] /home/ybli/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0-beta01.aar/79489721f4482c9a8f8ca905efd9d1db/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.1.0-alpha04] /home/ybli/.gradle/caches/transforms-1/files-1.1/core-ktx-1.1.0-alpha04.aar/08e3622c245331c5f0b106d0867453cc/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/ybli/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.3.aar/7c569249d0c3280a33f528768dee601a/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.fragment:fragment:1.0.0-beta01] /home/ybli/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0-beta01.aar/79854563b5149f1fd236cb6af880f31f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0-beta01] /home/ybli/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0-beta01.aar/685ad23150c71dfd763e3d12abd43fab/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0-beta01] /home/ybli/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0-beta01.aar/b79046702ab23bc34cafc1f0ac26e807/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0-beta01] /home/ybli/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0-beta01.aar/c68dd3879c5375649ecf73b82a06e81d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0-beta01] /home/ybli/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0-beta01.aar/05170cb0d9a71b24d8699c9d4aa55c3f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0-beta01] /home/ybli/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.0.0-beta01.aar/3410a2a6dd16064ce71f30e30aa82909/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0-beta01] /home/ybli/.gradle/caches/transforms-1/files-1.1/loader-1.0.0-beta01.aar/3be15db45a0c0daa51d663874e04feb6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0-beta01] /home/ybli/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0-beta01.aar/cd48a701a63a682293a6b9f5183dc382/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0-beta01] /home/ybli/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0-beta01.aar/672636d81a8ea6d329eb9a4f26e34985/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0-beta01] /home/ybli/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0-beta01.aar/ca7c0fec7d36888b3c5aa75cffce2e15/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0-beta01] /home/ybli/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0-beta01.aar/160e6ad67d96d1af25cd8dd6a822d334/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0-beta01] /home/ybli/.gradle/caches/transforms-1/files-1.1/customview-1.0.0-beta01.aar/0d4cd0b3bed5e628bb6d3cde181eb180/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0-beta01] /home/ybli/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0-beta01.aar/637878960ac412d0295766d2004d3e91/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0-beta01] /home/ybli/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0-beta01.aar/b8fb6caa736ff3620531586dde993ff7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0-alpha04] /home/ybli/.gradle/caches/transforms-1/files-1.1/core-1.1.0-alpha04.aar/0580d172e6bac92373495f17ab881e90/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0-beta01] /home/ybli/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0-beta01.aar/63de8d536cdc047e7da284952bcd03d0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0-beta01] /home/ybli/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0-beta01.aar/c7ba43870be552736c0c0efa1e6fd33d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0-beta01] /home/ybli/.gradle/caches/transforms-1/files-1.1/print-1.0.0-beta01.aar/e674de7db0248e6e4a435b51447defc4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01] /home/ybli/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0-alpha01.aar/48e1055cc95f7d7c51eff71c103135fa/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.interpolator:interpolator:1.0.0-beta01] /home/ybli/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0-beta01.aar/05c81c0ca3535ef95f8e0cde8d26b3f4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0-beta01] /home/ybli/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0-beta01.aar/37147e11d608c9484d8eab317b8dd304/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/ybli/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/cdaf3e08c0ff45dea54cc6f66f925318/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0-beta01] /home/ybli/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0-beta01.aar/716a94ddc17d7756019ca8fb910d335d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0-beta01] /home/ybli/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0-beta01.aar/a101a83d4aaf671b56ea22a9e7b9ade8/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/ybli/libfacedetection/mobile/Android/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /home/ybli/libfacedetection/mobile/Android/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /home/ybli/libfacedetection/mobile/Android/app/src/main/AndroidManifest.xml:2:1-23:12
+	package
+		ADDED from /home/ybli/libfacedetection/mobile/Android/app/src/main/AndroidManifest.xml:3:11-41
+		INJECTED from /home/ybli/libfacedetection/mobile/Android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ybli/libfacedetection/mobile/Android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/ybli/libfacedetection/mobile/Android/app/src/main/AndroidManifest.xml
+		ADDED from /home/ybli/libfacedetection/mobile/Android/app/src/main/AndroidManifest.xml:2:1-23:12
+		INJECTED from /home/ybli/libfacedetection/mobile/Android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/ybli/libfacedetection/mobile/Android/app/src/main/AndroidManifest.xml
+		ADDED from /home/ybli/libfacedetection/mobile/Android/app/src/main/AndroidManifest.xml:2:1-23:12
+		INJECTED from /home/ybli/libfacedetection/mobile/Android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/ybli/libfacedetection/mobile/Android/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /home/ybli/libfacedetection/mobile/Android/app/src/main/AndroidManifest.xml:7:5-21:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/ybli/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.3.aar/7c569249d0c3280a33f528768dee601a/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/ybli/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.3.aar/7c569249d0c3280a33f528768dee601a/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.1.0-alpha04] /home/ybli/.gradle/caches/transforms-1/files-1.1/core-1.1.0-alpha04.aar/0580d172e6bac92373495f17ab881e90/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.1.0-alpha04] /home/ybli/.gradle/caches/transforms-1/files-1.1/core-1.1.0-alpha04.aar/0580d172e6bac92373495f17ab881e90/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01] /home/ybli/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0-alpha01.aar/48e1055cc95f7d7c51eff71c103135fa/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01] /home/ybli/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0-alpha01.aar/48e1055cc95f7d7c51eff71c103135fa/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0-alpha04] /home/ybli/.gradle/caches/transforms-1/files-1.1/core-1.1.0-alpha04.aar/0580d172e6bac92373495f17ab881e90/AndroidManifest.xml:22:18-86
+	android:supportsRtl
+		ADDED from /home/ybli/libfacedetection/mobile/Android/app/src/main/AndroidManifest.xml:12:13-39
+	android:label
+		ADDED from /home/ybli/libfacedetection/mobile/Android/app/src/main/AndroidManifest.xml:10:13-45
+	android:roundIcon
+		ADDED from /home/ybli/libfacedetection/mobile/Android/app/src/main/AndroidManifest.xml:11:13-58
+	android:icon
+		ADDED from /home/ybli/libfacedetection/mobile/Android/app/src/main/AndroidManifest.xml:9:13-47
+	android:allowBackup
+		ADDED from /home/ybli/libfacedetection/mobile/Android/app/src/main/AndroidManifest.xml:8:13-39
+	android:theme
+		ADDED from /home/ybli/libfacedetection/mobile/Android/app/src/main/AndroidManifest.xml:13:13-44
+activity#org.dp.facedetection.MainActivity
+ADDED from /home/ybli/libfacedetection/mobile/Android/app/src/main/AndroidManifest.xml:14:9-20:20
+	android:name
+		ADDED from /home/ybli/libfacedetection/mobile/Android/app/src/main/AndroidManifest.xml:14:19-67
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/ybli/libfacedetection/mobile/Android/app/src/main/AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from /home/ybli/libfacedetection/mobile/Android/app/src/main/AndroidManifest.xml:16:17-68
+	android:name
+		ADDED from /home/ybli/libfacedetection/mobile/Android/app/src/main/AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/ybli/libfacedetection/mobile/Android/app/src/main/AndroidManifest.xml:18:17-76
+	android:name
+		ADDED from /home/ybli/libfacedetection/mobile/Android/app/src/main/AndroidManifest.xml:18:27-74
+uses-sdk
+INJECTED from /home/ybli/libfacedetection/mobile/Android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/ybli/libfacedetection/mobile/Android/app/src/main/AndroidManifest.xml
+INJECTED from /home/ybli/libfacedetection/mobile/Android/app/src/main/AndroidManifest.xml
+MERGED from [:openCVLibrary401] /home/ybli/libfacedetection/mobile/Android/openCVLibrary401/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:openCVLibrary401] /home/ybli/libfacedetection/mobile/Android/openCVLibrary401/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.0.0-beta01] /home/ybli/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0-beta01.aar/79489721f4482c9a8f8ca905efd9d1db/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0-beta01] /home/ybli/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0-beta01.aar/79489721f4482c9a8f8ca905efd9d1db/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.1.0-alpha04] /home/ybli/.gradle/caches/transforms-1/files-1.1/core-ktx-1.1.0-alpha04.aar/08e3622c245331c5f0b106d0867453cc/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.1.0-alpha04] /home/ybli/.gradle/caches/transforms-1/files-1.1/core-ktx-1.1.0-alpha04.aar/08e3622c245331c5f0b106d0867453cc/AndroidManifest.xml:5:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/ybli/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.3.aar/7c569249d0c3280a33f528768dee601a/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/ybli/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.3.aar/7c569249d0c3280a33f528768dee601a/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.fragment:fragment:1.0.0-beta01] /home/ybli/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0-beta01.aar/79854563b5149f1fd236cb6af880f31f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0-beta01] /home/ybli/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0-beta01.aar/79854563b5149f1fd236cb6af880f31f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0-beta01] /home/ybli/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0-beta01.aar/685ad23150c71dfd763e3d12abd43fab/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0-beta01] /home/ybli/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0-beta01.aar/685ad23150c71dfd763e3d12abd43fab/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0-beta01] /home/ybli/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0-beta01.aar/b79046702ab23bc34cafc1f0ac26e807/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0-beta01] /home/ybli/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0-beta01.aar/b79046702ab23bc34cafc1f0ac26e807/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0-beta01] /home/ybli/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0-beta01.aar/c68dd3879c5375649ecf73b82a06e81d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0-beta01] /home/ybli/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0-beta01.aar/c68dd3879c5375649ecf73b82a06e81d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0-beta01] /home/ybli/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0-beta01.aar/05170cb0d9a71b24d8699c9d4aa55c3f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0-beta01] /home/ybli/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0-beta01.aar/05170cb0d9a71b24d8699c9d4aa55c3f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0-beta01] /home/ybli/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.0.0-beta01.aar/3410a2a6dd16064ce71f30e30aa82909/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0-beta01] /home/ybli/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.0.0-beta01.aar/3410a2a6dd16064ce71f30e30aa82909/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0-beta01] /home/ybli/.gradle/caches/transforms-1/files-1.1/loader-1.0.0-beta01.aar/3be15db45a0c0daa51d663874e04feb6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0-beta01] /home/ybli/.gradle/caches/transforms-1/files-1.1/loader-1.0.0-beta01.aar/3be15db45a0c0daa51d663874e04feb6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0-beta01] /home/ybli/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0-beta01.aar/cd48a701a63a682293a6b9f5183dc382/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0-beta01] /home/ybli/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0-beta01.aar/cd48a701a63a682293a6b9f5183dc382/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0-beta01] /home/ybli/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0-beta01.aar/672636d81a8ea6d329eb9a4f26e34985/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0-beta01] /home/ybli/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0-beta01.aar/672636d81a8ea6d329eb9a4f26e34985/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0-beta01] /home/ybli/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0-beta01.aar/ca7c0fec7d36888b3c5aa75cffce2e15/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0-beta01] /home/ybli/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0-beta01.aar/ca7c0fec7d36888b3c5aa75cffce2e15/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0-beta01] /home/ybli/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0-beta01.aar/160e6ad67d96d1af25cd8dd6a822d334/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0-beta01] /home/ybli/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0-beta01.aar/160e6ad67d96d1af25cd8dd6a822d334/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0-beta01] /home/ybli/.gradle/caches/transforms-1/files-1.1/customview-1.0.0-beta01.aar/0d4cd0b3bed5e628bb6d3cde181eb180/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0-beta01] /home/ybli/.gradle/caches/transforms-1/files-1.1/customview-1.0.0-beta01.aar/0d4cd0b3bed5e628bb6d3cde181eb180/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0-beta01] /home/ybli/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0-beta01.aar/637878960ac412d0295766d2004d3e91/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0-beta01] /home/ybli/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0-beta01.aar/637878960ac412d0295766d2004d3e91/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0-beta01] /home/ybli/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0-beta01.aar/b8fb6caa736ff3620531586dde993ff7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0-beta01] /home/ybli/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0-beta01.aar/b8fb6caa736ff3620531586dde993ff7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0-alpha04] /home/ybli/.gradle/caches/transforms-1/files-1.1/core-1.1.0-alpha04.aar/0580d172e6bac92373495f17ab881e90/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0-alpha04] /home/ybli/.gradle/caches/transforms-1/files-1.1/core-1.1.0-alpha04.aar/0580d172e6bac92373495f17ab881e90/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0-beta01] /home/ybli/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0-beta01.aar/63de8d536cdc047e7da284952bcd03d0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0-beta01] /home/ybli/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0-beta01.aar/63de8d536cdc047e7da284952bcd03d0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0-beta01] /home/ybli/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0-beta01.aar/c7ba43870be552736c0c0efa1e6fd33d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0-beta01] /home/ybli/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0-beta01.aar/c7ba43870be552736c0c0efa1e6fd33d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0-beta01] /home/ybli/.gradle/caches/transforms-1/files-1.1/print-1.0.0-beta01.aar/e674de7db0248e6e4a435b51447defc4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0-beta01] /home/ybli/.gradle/caches/transforms-1/files-1.1/print-1.0.0-beta01.aar/e674de7db0248e6e4a435b51447defc4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01] /home/ybli/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0-alpha01.aar/48e1055cc95f7d7c51eff71c103135fa/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01] /home/ybli/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0-alpha01.aar/48e1055cc95f7d7c51eff71c103135fa/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0-beta01] /home/ybli/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0-beta01.aar/05c81c0ca3535ef95f8e0cde8d26b3f4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0-beta01] /home/ybli/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0-beta01.aar/05c81c0ca3535ef95f8e0cde8d26b3f4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0-beta01] /home/ybli/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0-beta01.aar/37147e11d608c9484d8eab317b8dd304/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0-beta01] /home/ybli/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0-beta01.aar/37147e11d608c9484d8eab317b8dd304/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/ybli/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/cdaf3e08c0ff45dea54cc6f66f925318/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/ybli/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/cdaf3e08c0ff45dea54cc6f66f925318/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0-beta01] /home/ybli/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0-beta01.aar/716a94ddc17d7756019ca8fb910d335d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0-beta01] /home/ybli/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0-beta01.aar/716a94ddc17d7756019ca8fb910d335d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0-beta01] /home/ybli/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0-beta01.aar/a101a83d4aaf671b56ea22a9e7b9ade8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0-beta01] /home/ybli/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0-beta01.aar/a101a83d4aaf671b56ea22a9e7b9ade8/AndroidManifest.xml:20:5-44
+INJECTED from /home/ybli/libfacedetection/mobile/Android/app/src/main/AndroidManifest.xml
+INJECTED from /home/ybli/libfacedetection/mobile/Android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/ybli/libfacedetection/mobile/Android/app/src/main/AndroidManifest.xml
+		ADDED from /home/ybli/libfacedetection/mobile/Android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ybli/libfacedetection/mobile/Android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/ybli/libfacedetection/mobile/Android/app/src/main/AndroidManifest.xml
+		ADDED from /home/ybli/libfacedetection/mobile/Android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/ybli/libfacedetection/mobile/Android/app/src/main/AndroidManifest.xml

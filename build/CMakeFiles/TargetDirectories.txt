@@ -1,0 +1,7 @@
+/home/ybli/libfacedetection/build/CMakeFiles/edit_cache.dir
+/home/ybli/libfacedetection/build/CMakeFiles/facedetection.dir
+/home/ybli/libfacedetection/build/CMakeFiles/benchmark.dir
+/home/ybli/libfacedetection/build/CMakeFiles/facedetection_shared.dir
+/home/ybli/libfacedetection/build/CMakeFiles/detect-image-demo.dir
+/home/ybli/libfacedetection/build/CMakeFiles/rebuild_cache.dir
+/home/ybli/libfacedetection/build/CMakeFiles/detect-camera-demo.dir

@@ -70,7 +70,7 @@ if (DEMO)
     add_executable(detect-camera-demo ${fdt_base_dir}/example/detect-camera.cpp)
     target_link_libraries(detect-camera-demo ${fdt_lib_static} ${OpenCV_LIBS})
     
-        add_executable(benchmark ${fdt_base_dir}/example/benchmark.cpp)
+    add_executable(benchmark ${fdt_base_dir}/example/benchmark.cpp)
     target_link_libraries(benchmark ${fdt_lib_static} ${OpenCV_LIBS})
 endif()
 

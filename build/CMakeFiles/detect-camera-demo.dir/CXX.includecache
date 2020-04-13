@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/facedetectcnn.h
+immintrin.h
+-
+arm_neon.h
+../src/arm_neon.h
+omp.h
+-
+string.h
+-
+vector
+-
+iostream
+-
+typeinfo
+-
+
+/home/ybli/libfacedetection/example/detect-camera.cpp
+stdio.h
+-
+opencv2/opencv.hpp
+-
+facedetectcnn.h
+/home/ybli/libfacedetection/example/facedetectcnn.h
+

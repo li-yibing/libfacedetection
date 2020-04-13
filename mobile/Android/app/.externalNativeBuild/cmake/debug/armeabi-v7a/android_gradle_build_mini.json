@@ -1,0 +1,27 @@
+{
+  "buildFiles": [
+    "/home/ybli/libfacedetection/mobile/Android/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/home/ybli/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/ybli/libfacedetection/mobile/Android/app/.externalNativeBuild/cmake/debug/armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "libopencv_java3-Debug-armeabi-v7a": {
+      "artifactName": "libopencv_java3",
+      "abi": "armeabi-v7a",
+      "output": "/home/ybli/libfacedetection/mobile/Android/app/src/main/cpp/../jniLibs/armeabi-v7a/libopencv_java4.so"
+    },
+    "facedetection-Debug-armeabi-v7a": {
+      "artifactName": "facedetection",
+      "buildCommand": "/home/ybli/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/ybli/libfacedetection/mobile/Android/app/.externalNativeBuild/cmake/debug/armeabi-v7a --target facedetection",
+      "abi": "armeabi-v7a",
+      "output": "/home/ybli/libfacedetection/mobile/Android/app/.externalNativeBuild/cmake/debug/armeabi-v7a/libfacedetection.a"
+    },
+    "facedetection_shared-Debug-armeabi-v7a": {
+      "artifactName": "facedetection_shared",
+      "buildCommand": "/home/ybli/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/ybli/libfacedetection/mobile/Android/app/.externalNativeBuild/cmake/debug/armeabi-v7a --target facedetection_shared",
+      "abi": "armeabi-v7a",
+      "output": "/home/ybli/libfacedetection/mobile/Android/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libfacedetection.so"
+    }
+  }
+}

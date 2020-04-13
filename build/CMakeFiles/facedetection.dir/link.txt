@@ -1,0 +1,2 @@
+/usr/bin/ar qc libfacedetection.a  CMakeFiles/facedetection.dir/src/facedetectcnn-int8data.cpp.o CMakeFiles/facedetection.dir/src/facedetectcnn-model.cpp.o CMakeFiles/facedetection.dir/src/facedetectcnn.cpp.o
+/usr/bin/ranlib libfacedetection.a

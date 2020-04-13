@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: javax.inject:javax.inject:1@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/manual-offline-m2/android-gradle-plugin-3.5.0-beta01/javax/inject/javax.inject/1/javax.inject-1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
