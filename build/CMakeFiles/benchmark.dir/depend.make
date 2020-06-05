@@ -3,4 +3,5 @@
 
 CMakeFiles/benchmark.dir/example/benchmark.cpp.o: ../src/facedetectcnn.h
 CMakeFiles/benchmark.dir/example/benchmark.cpp.o: ../example/benchmark.cpp
+CMakeFiles/benchmark.dir/example/benchmark.cpp.o: facedetection_export.h
 

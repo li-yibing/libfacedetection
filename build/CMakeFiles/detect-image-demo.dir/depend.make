@@ -3,4 +3,5 @@
 
 CMakeFiles/detect-image-demo.dir/example/detect-image.cpp.o: ../src/facedetectcnn.h
 CMakeFiles/detect-image-demo.dir/example/detect-image.cpp.o: ../example/detect-image.cpp
+CMakeFiles/detect-image-demo.dir/example/detect-image.cpp.o: facedetection_export.h
 

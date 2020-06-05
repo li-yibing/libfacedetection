@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC  -O3 -mavx2 -mfma  -shared -Wl,-soname,libfacedetection.so -o libfacedetection.so CMakeFiles/facedetection_shared.dir/src/facedetectcnn-int8data.cpp.o CMakeFiles/facedetection_shared.dir/src/facedetectcnn-model.cpp.o CMakeFiles/facedetection_shared.dir/src/facedetectcnn.cpp.o 

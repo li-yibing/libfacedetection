@@ -4,3 +4,4 @@
 CMakeFiles/detect-camera-demo.dir/example/detect-camera.cpp.o
  ../src/facedetectcnn.h
  /home/ybli/libfacedetection/example/detect-camera.cpp
+ facedetection_export.h

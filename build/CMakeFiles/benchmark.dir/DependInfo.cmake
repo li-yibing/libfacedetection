@@ -10,12 +10,15 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
+  "BUILD_SHARED_LIBS"
   "_ENABLE_AVX2"
   )
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../src"
+  "../facedetection"
+  "."
   "/usr/local/include/opencv"
   )
 

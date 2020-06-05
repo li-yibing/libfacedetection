@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/ybli/libfacedetection/src/facedetectcnn-int8data.cpp
-facedetectcnn.h
-/home/ybli/libfacedetection/src/facedetectcnn.h
-
 /home/ybli/libfacedetection/src/facedetectcnn-model.cpp
 facedetectcnn.h
 /home/ybli/libfacedetection/src/facedetectcnn.h
@@ -35,6 +31,8 @@ algorithm
 -
 
 /home/ybli/libfacedetection/src/facedetectcnn.h
+facedetection_export.h
+/home/ybli/libfacedetection/src/facedetection_export.h
 immintrin.h
 -
 arm_neon.h
@@ -49,4 +47,10 @@ iostream
 -
 typeinfo
 -
+
+/home/ybli/libfacedetection/src/yunet_epoch_81-int8data.cpp
+facedetectcnn.h
+/home/ybli/libfacedetection/src/facedetectcnn.h
+
+facedetection_export.h
 

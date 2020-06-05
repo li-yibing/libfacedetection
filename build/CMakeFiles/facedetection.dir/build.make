@@ -57,22 +57,9 @@ include CMakeFiles/facedetection.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/facedetection.dir/flags.make
 
-CMakeFiles/facedetection.dir/src/facedetectcnn-int8data.cpp.o: CMakeFiles/facedetection.dir/flags.make
-CMakeFiles/facedetection.dir/src/facedetectcnn-int8data.cpp.o: ../src/facedetectcnn-int8data.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ybli/libfacedetection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/facedetection.dir/src/facedetectcnn-int8data.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/facedetection.dir/src/facedetectcnn-int8data.cpp.o -c /home/ybli/libfacedetection/src/facedetectcnn-int8data.cpp
-
-CMakeFiles/facedetection.dir/src/facedetectcnn-int8data.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/facedetection.dir/src/facedetectcnn-int8data.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ybli/libfacedetection/src/facedetectcnn-int8data.cpp > CMakeFiles/facedetection.dir/src/facedetectcnn-int8data.cpp.i
-
-CMakeFiles/facedetection.dir/src/facedetectcnn-int8data.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/facedetection.dir/src/facedetectcnn-int8data.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ybli/libfacedetection/src/facedetectcnn-int8data.cpp -o CMakeFiles/facedetection.dir/src/facedetectcnn-int8data.cpp.s
-
 CMakeFiles/facedetection.dir/src/facedetectcnn-model.cpp.o: CMakeFiles/facedetection.dir/flags.make
 CMakeFiles/facedetection.dir/src/facedetectcnn-model.cpp.o: ../src/facedetectcnn-model.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ybli/libfacedetection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/facedetection.dir/src/facedetectcnn-model.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ybli/libfacedetection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/facedetection.dir/src/facedetectcnn-model.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/facedetection.dir/src/facedetectcnn-model.cpp.o -c /home/ybli/libfacedetection/src/facedetectcnn-model.cpp
 
 CMakeFiles/facedetection.dir/src/facedetectcnn-model.cpp.i: cmake_force
@@ -85,7 +72,7 @@ CMakeFiles/facedetection.dir/src/facedetectcnn-model.cpp.s: cmake_force
 
 CMakeFiles/facedetection.dir/src/facedetectcnn.cpp.o: CMakeFiles/facedetection.dir/flags.make
 CMakeFiles/facedetection.dir/src/facedetectcnn.cpp.o: ../src/facedetectcnn.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ybli/libfacedetection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/facedetection.dir/src/facedetectcnn.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ybli/libfacedetection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/facedetection.dir/src/facedetectcnn.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/facedetection.dir/src/facedetectcnn.cpp.o -c /home/ybli/libfacedetection/src/facedetectcnn.cpp
 
 CMakeFiles/facedetection.dir/src/facedetectcnn.cpp.i: cmake_force
@@ -96,26 +83,42 @@ CMakeFiles/facedetection.dir/src/facedetectcnn.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/facedetection.dir/src/facedetectcnn.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ybli/libfacedetection/src/facedetectcnn.cpp -o CMakeFiles/facedetection.dir/src/facedetectcnn.cpp.s
 
+CMakeFiles/facedetection.dir/src/yunet_epoch_81-int8data.cpp.o: CMakeFiles/facedetection.dir/flags.make
+CMakeFiles/facedetection.dir/src/yunet_epoch_81-int8data.cpp.o: ../src/yunet_epoch_81-int8data.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ybli/libfacedetection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/facedetection.dir/src/yunet_epoch_81-int8data.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/facedetection.dir/src/yunet_epoch_81-int8data.cpp.o -c /home/ybli/libfacedetection/src/yunet_epoch_81-int8data.cpp
+
+CMakeFiles/facedetection.dir/src/yunet_epoch_81-int8data.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/facedetection.dir/src/yunet_epoch_81-int8data.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ybli/libfacedetection/src/yunet_epoch_81-int8data.cpp > CMakeFiles/facedetection.dir/src/yunet_epoch_81-int8data.cpp.i
+
+CMakeFiles/facedetection.dir/src/yunet_epoch_81-int8data.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/facedetection.dir/src/yunet_epoch_81-int8data.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ybli/libfacedetection/src/yunet_epoch_81-int8data.cpp -o CMakeFiles/facedetection.dir/src/yunet_epoch_81-int8data.cpp.s
+
 # Object files for target facedetection
 facedetection_OBJECTS = \
-"CMakeFiles/facedetection.dir/src/facedetectcnn-int8data.cpp.o" \
 "CMakeFiles/facedetection.dir/src/facedetectcnn-model.cpp.o" \
-"CMakeFiles/facedetection.dir/src/facedetectcnn.cpp.o"
+"CMakeFiles/facedetection.dir/src/facedetectcnn.cpp.o" \
+"CMakeFiles/facedetection.dir/src/yunet_epoch_81-int8data.cpp.o"
 
 # External object files for target facedetection
 facedetection_EXTERNAL_OBJECTS =
 
-libfacedetection.a: CMakeFiles/facedetection.dir/src/facedetectcnn-int8data.cpp.o
-libfacedetection.a: CMakeFiles/facedetection.dir/src/facedetectcnn-model.cpp.o
-libfacedetection.a: CMakeFiles/facedetection.dir/src/facedetectcnn.cpp.o
-libfacedetection.a: CMakeFiles/facedetection.dir/build.make
-libfacedetection.a: CMakeFiles/facedetection.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ybli/libfacedetection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libfacedetection.a"
-	$(CMAKE_COMMAND) -P CMakeFiles/facedetection.dir/cmake_clean_target.cmake
+libfacedetection.so.v0.0.1: CMakeFiles/facedetection.dir/src/facedetectcnn-model.cpp.o
+libfacedetection.so.v0.0.1: CMakeFiles/facedetection.dir/src/facedetectcnn.cpp.o
+libfacedetection.so.v0.0.1: CMakeFiles/facedetection.dir/src/yunet_epoch_81-int8data.cpp.o
+libfacedetection.so.v0.0.1: CMakeFiles/facedetection.dir/build.make
+libfacedetection.so.v0.0.1: CMakeFiles/facedetection.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ybli/libfacedetection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libfacedetection.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/facedetection.dir/link.txt --verbose=$(VERBOSE)
+	$(CMAKE_COMMAND) -E cmake_symlink_library libfacedetection.so.v0.0.1 libfacedetection.so.v0.0.1 libfacedetection.so
+
+libfacedetection.so: libfacedetection.so.v0.0.1
+	@$(CMAKE_COMMAND) -E touch_nocreate libfacedetection.so
 
 # Rule to build all files generated by this target.
-CMakeFiles/facedetection.dir/build: libfacedetection.a
+CMakeFiles/facedetection.dir/build: libfacedetection.so
 
 .PHONY : CMakeFiles/facedetection.dir/build
 

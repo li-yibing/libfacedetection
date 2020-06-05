@@ -79,7 +79,7 @@ detect__camera__demo_EXTERNAL_OBJECTS =
 
 detect-camera-demo: CMakeFiles/detect-camera-demo.dir/example/detect-camera.cpp.o
 detect-camera-demo: CMakeFiles/detect-camera-demo.dir/build.make
-detect-camera-demo: libfacedetection.a
+detect-camera-demo: libfacedetection.so.v0.0.1
 detect-camera-demo: /usr/local/lib/libopencv_shape.so.3.2.0
 detect-camera-demo: /usr/local/lib/libopencv_stitching.so.3.2.0
 detect-camera-demo: /usr/local/lib/libopencv_superres.so.3.2.0

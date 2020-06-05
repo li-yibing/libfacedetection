@@ -79,7 +79,7 @@ detect__image__demo_EXTERNAL_OBJECTS =
 
 detect-image-demo: CMakeFiles/detect-image-demo.dir/example/detect-image.cpp.o
 detect-image-demo: CMakeFiles/detect-image-demo.dir/build.make
-detect-image-demo: libfacedetection.a
+detect-image-demo: libfacedetection.so.v0.0.1
 detect-image-demo: /usr/local/lib/libopencv_shape.so.3.2.0
 detect-image-demo: /usr/local/lib/libopencv_stitching.so.3.2.0
 detect-image-demo: /usr/local/lib/libopencv_superres.so.3.2.0

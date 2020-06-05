@@ -1,9 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/facedetection.dir/src/facedetectcnn-int8data.cpp.o"
   "CMakeFiles/facedetection.dir/src/facedetectcnn-model.cpp.o"
   "CMakeFiles/facedetection.dir/src/facedetectcnn.cpp.o"
+  "CMakeFiles/facedetection.dir/src/yunet_epoch_81-int8data.cpp.o"
   "libfacedetection.pdb"
-  "libfacedetection.a"
+  "libfacedetection.so.v0.0.1"
+  "libfacedetection.so"
 )
 
 # Per-language clean rules from dependency scanning.

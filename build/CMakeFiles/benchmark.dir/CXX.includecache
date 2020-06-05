@@ -7,6 +7,8 @@
 #IncludeRegexTransform: 
 
 ../src/facedetectcnn.h
+facedetection_export.h
+../src/facedetection_export.h
 immintrin.h
 -
 arm_neon.h
@@ -27,8 +29,10 @@ stdio.h
 -
 opencv2/opencv.hpp
 -
-omp.h
--
 facedetectcnn.h
 /home/ybli/libfacedetection/example/facedetectcnn.h
+omp.h
+-
+
+facedetection_export.h
 

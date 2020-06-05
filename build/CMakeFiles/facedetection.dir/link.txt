@@ -1,2 +1,1 @@
-/usr/bin/ar qc libfacedetection.a  CMakeFiles/facedetection.dir/src/facedetectcnn-int8data.cpp.o CMakeFiles/facedetection.dir/src/facedetectcnn-model.cpp.o CMakeFiles/facedetection.dir/src/facedetectcnn.cpp.o
-/usr/bin/ranlib libfacedetection.a
+/usr/bin/c++ -fPIC  -O3 -mavx2 -mfma -fopenmp -O3 -DNDEBUG  -shared -Wl,-soname,libfacedetection.so.v0.0.1 -o libfacedetection.so.v0.0.1 CMakeFiles/facedetection.dir/src/facedetectcnn-model.cpp.o CMakeFiles/facedetection.dir/src/facedetectcnn.cpp.o CMakeFiles/facedetection.dir/src/yunet_epoch_81-int8data.cpp.o 

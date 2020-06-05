@@ -1,7 +1,10 @@
-/home/ybli/libfacedetection/build/CMakeFiles/edit_cache.dir
+/home/ybli/libfacedetection/build/CMakeFiles/install/strip.dir
+/home/ybli/libfacedetection/build/CMakeFiles/install/local.dir
+/home/ybli/libfacedetection/build/CMakeFiles/install.dir
+/home/ybli/libfacedetection/build/CMakeFiles/list_install_components.dir
+/home/ybli/libfacedetection/build/CMakeFiles/detect-image-demo.dir
 /home/ybli/libfacedetection/build/CMakeFiles/facedetection.dir
 /home/ybli/libfacedetection/build/CMakeFiles/benchmark.dir
-/home/ybli/libfacedetection/build/CMakeFiles/facedetection_shared.dir
-/home/ybli/libfacedetection/build/CMakeFiles/detect-image-demo.dir
+/home/ybli/libfacedetection/build/CMakeFiles/edit_cache.dir
 /home/ybli/libfacedetection/build/CMakeFiles/rebuild_cache.dir
 /home/ybli/libfacedetection/build/CMakeFiles/detect-camera-demo.dir

@@ -104,11 +104,20 @@ int main(int argc, char* argv[])
             for(int i = 0; i < (pResults ? *pResults : 0); i++)
             {
                 short * p = ((short*)(pResults+1))+142*i;
+                ///*新模型输出
                 int confidence = p[0];
                 int x = p[1];
                 int y = p[2];
                 int w = p[3];
                 int h = p[4];
+                //*/
+                /*老模型输出
+                int x = p[0];
+                int y = p[1];
+                int w = p[2];
+                int h = p[3];
+                int confidence = p[4];
+                */
                 
                 //show the score of the face. Its range is [0-100]
                 char sScore[256];

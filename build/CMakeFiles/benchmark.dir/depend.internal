@@ -4,3 +4,4 @@
 CMakeFiles/benchmark.dir/example/benchmark.cpp.o
  ../src/facedetectcnn.h
  /home/ybli/libfacedetection/example/benchmark.cpp
+ facedetection_export.h

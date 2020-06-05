@@ -56,6 +56,52 @@ CMAKE_BINARY_DIR = /home/ybli/libfacedetection/build
 #=============================================================================
 # Targets provided globally by CMake.
 
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/home/ybli/anaconda3/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/home/ybli/anaconda3/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/home/ybli/anaconda3/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/home/ybli/anaconda3/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/home/ybli/anaconda3/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/home/ybli/anaconda3/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
+
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+
+.PHONY : list_install_components/fast
+
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -111,6 +157,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named detect-image-demo
+
+# Build rule for target.
+detect-image-demo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 detect-image-demo
+.PHONY : detect-image-demo
+
+# fast build rule for target.
+detect-image-demo/fast:
+	$(MAKE) -f CMakeFiles/detect-image-demo.dir/build.make CMakeFiles/detect-image-demo.dir/build
+.PHONY : detect-image-demo/fast
+
+#=============================================================================
 # Target rules for targets named facedetection
 
 # Build rule for target.
@@ -135,32 +194,6 @@ benchmark: cmake_check_build_system
 benchmark/fast:
 	$(MAKE) -f CMakeFiles/benchmark.dir/build.make CMakeFiles/benchmark.dir/build
 .PHONY : benchmark/fast
-
-#=============================================================================
-# Target rules for targets named facedetection_shared
-
-# Build rule for target.
-facedetection_shared: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 facedetection_shared
-.PHONY : facedetection_shared
-
-# fast build rule for target.
-facedetection_shared/fast:
-	$(MAKE) -f CMakeFiles/facedetection_shared.dir/build.make CMakeFiles/facedetection_shared.dir/build
-.PHONY : facedetection_shared/fast
-
-#=============================================================================
-# Target rules for targets named detect-image-demo
-
-# Build rule for target.
-detect-image-demo: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 detect-image-demo
-.PHONY : detect-image-demo
-
-# fast build rule for target.
-detect-image-demo/fast:
-	$(MAKE) -f CMakeFiles/detect-image-demo.dir/build.make CMakeFiles/detect-image-demo.dir/build
-.PHONY : detect-image-demo/fast
 
 #=============================================================================
 # Target rules for targets named detect-camera-demo
@@ -256,36 +289,6 @@ example/detect-image.cpp.s:
 	$(MAKE) -f CMakeFiles/detect-image-demo.dir/build.make CMakeFiles/detect-image-demo.dir/example/detect-image.cpp.s
 .PHONY : example/detect-image.cpp.s
 
-src/facedetectcnn-int8data.o: src/facedetectcnn-int8data.cpp.o
-
-.PHONY : src/facedetectcnn-int8data.o
-
-# target to build an object file
-src/facedetectcnn-int8data.cpp.o:
-	$(MAKE) -f CMakeFiles/facedetection.dir/build.make CMakeFiles/facedetection.dir/src/facedetectcnn-int8data.cpp.o
-	$(MAKE) -f CMakeFiles/facedetection_shared.dir/build.make CMakeFiles/facedetection_shared.dir/src/facedetectcnn-int8data.cpp.o
-.PHONY : src/facedetectcnn-int8data.cpp.o
-
-src/facedetectcnn-int8data.i: src/facedetectcnn-int8data.cpp.i
-
-.PHONY : src/facedetectcnn-int8data.i
-
-# target to preprocess a source file
-src/facedetectcnn-int8data.cpp.i:
-	$(MAKE) -f CMakeFiles/facedetection.dir/build.make CMakeFiles/facedetection.dir/src/facedetectcnn-int8data.cpp.i
-	$(MAKE) -f CMakeFiles/facedetection_shared.dir/build.make CMakeFiles/facedetection_shared.dir/src/facedetectcnn-int8data.cpp.i
-.PHONY : src/facedetectcnn-int8data.cpp.i
-
-src/facedetectcnn-int8data.s: src/facedetectcnn-int8data.cpp.s
-
-.PHONY : src/facedetectcnn-int8data.s
-
-# target to generate assembly for a file
-src/facedetectcnn-int8data.cpp.s:
-	$(MAKE) -f CMakeFiles/facedetection.dir/build.make CMakeFiles/facedetection.dir/src/facedetectcnn-int8data.cpp.s
-	$(MAKE) -f CMakeFiles/facedetection_shared.dir/build.make CMakeFiles/facedetection_shared.dir/src/facedetectcnn-int8data.cpp.s
-.PHONY : src/facedetectcnn-int8data.cpp.s
-
 src/facedetectcnn-model.o: src/facedetectcnn-model.cpp.o
 
 .PHONY : src/facedetectcnn-model.o
@@ -293,7 +296,6 @@ src/facedetectcnn-model.o: src/facedetectcnn-model.cpp.o
 # target to build an object file
 src/facedetectcnn-model.cpp.o:
 	$(MAKE) -f CMakeFiles/facedetection.dir/build.make CMakeFiles/facedetection.dir/src/facedetectcnn-model.cpp.o
-	$(MAKE) -f CMakeFiles/facedetection_shared.dir/build.make CMakeFiles/facedetection_shared.dir/src/facedetectcnn-model.cpp.o
 .PHONY : src/facedetectcnn-model.cpp.o
 
 src/facedetectcnn-model.i: src/facedetectcnn-model.cpp.i
@@ -303,7 +305,6 @@ src/facedetectcnn-model.i: src/facedetectcnn-model.cpp.i
 # target to preprocess a source file
 src/facedetectcnn-model.cpp.i:
 	$(MAKE) -f CMakeFiles/facedetection.dir/build.make CMakeFiles/facedetection.dir/src/facedetectcnn-model.cpp.i
-	$(MAKE) -f CMakeFiles/facedetection_shared.dir/build.make CMakeFiles/facedetection_shared.dir/src/facedetectcnn-model.cpp.i
 .PHONY : src/facedetectcnn-model.cpp.i
 
 src/facedetectcnn-model.s: src/facedetectcnn-model.cpp.s
@@ -313,7 +314,6 @@ src/facedetectcnn-model.s: src/facedetectcnn-model.cpp.s
 # target to generate assembly for a file
 src/facedetectcnn-model.cpp.s:
 	$(MAKE) -f CMakeFiles/facedetection.dir/build.make CMakeFiles/facedetection.dir/src/facedetectcnn-model.cpp.s
-	$(MAKE) -f CMakeFiles/facedetection_shared.dir/build.make CMakeFiles/facedetection_shared.dir/src/facedetectcnn-model.cpp.s
 .PHONY : src/facedetectcnn-model.cpp.s
 
 src/facedetectcnn.o: src/facedetectcnn.cpp.o
@@ -323,7 +323,6 @@ src/facedetectcnn.o: src/facedetectcnn.cpp.o
 # target to build an object file
 src/facedetectcnn.cpp.o:
 	$(MAKE) -f CMakeFiles/facedetection.dir/build.make CMakeFiles/facedetection.dir/src/facedetectcnn.cpp.o
-	$(MAKE) -f CMakeFiles/facedetection_shared.dir/build.make CMakeFiles/facedetection_shared.dir/src/facedetectcnn.cpp.o
 .PHONY : src/facedetectcnn.cpp.o
 
 src/facedetectcnn.i: src/facedetectcnn.cpp.i
@@ -333,7 +332,6 @@ src/facedetectcnn.i: src/facedetectcnn.cpp.i
 # target to preprocess a source file
 src/facedetectcnn.cpp.i:
 	$(MAKE) -f CMakeFiles/facedetection.dir/build.make CMakeFiles/facedetection.dir/src/facedetectcnn.cpp.i
-	$(MAKE) -f CMakeFiles/facedetection_shared.dir/build.make CMakeFiles/facedetection_shared.dir/src/facedetectcnn.cpp.i
 .PHONY : src/facedetectcnn.cpp.i
 
 src/facedetectcnn.s: src/facedetectcnn.cpp.s
@@ -343,8 +341,34 @@ src/facedetectcnn.s: src/facedetectcnn.cpp.s
 # target to generate assembly for a file
 src/facedetectcnn.cpp.s:
 	$(MAKE) -f CMakeFiles/facedetection.dir/build.make CMakeFiles/facedetection.dir/src/facedetectcnn.cpp.s
-	$(MAKE) -f CMakeFiles/facedetection_shared.dir/build.make CMakeFiles/facedetection_shared.dir/src/facedetectcnn.cpp.s
 .PHONY : src/facedetectcnn.cpp.s
+
+src/yunet_epoch_81-int8data.o: src/yunet_epoch_81-int8data.cpp.o
+
+.PHONY : src/yunet_epoch_81-int8data.o
+
+# target to build an object file
+src/yunet_epoch_81-int8data.cpp.o:
+	$(MAKE) -f CMakeFiles/facedetection.dir/build.make CMakeFiles/facedetection.dir/src/yunet_epoch_81-int8data.cpp.o
+.PHONY : src/yunet_epoch_81-int8data.cpp.o
+
+src/yunet_epoch_81-int8data.i: src/yunet_epoch_81-int8data.cpp.i
+
+.PHONY : src/yunet_epoch_81-int8data.i
+
+# target to preprocess a source file
+src/yunet_epoch_81-int8data.cpp.i:
+	$(MAKE) -f CMakeFiles/facedetection.dir/build.make CMakeFiles/facedetection.dir/src/yunet_epoch_81-int8data.cpp.i
+.PHONY : src/yunet_epoch_81-int8data.cpp.i
+
+src/yunet_epoch_81-int8data.s: src/yunet_epoch_81-int8data.cpp.s
+
+.PHONY : src/yunet_epoch_81-int8data.s
+
+# target to generate assembly for a file
+src/yunet_epoch_81-int8data.cpp.s:
+	$(MAKE) -f CMakeFiles/facedetection.dir/build.make CMakeFiles/facedetection.dir/src/yunet_epoch_81-int8data.cpp.s
+.PHONY : src/yunet_epoch_81-int8data.cpp.s
 
 # Help Target
 help:
@@ -352,11 +376,14 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... edit_cache"
+	@echo "... install/strip"
+	@echo "... install/local"
+	@echo "... install"
+	@echo "... list_install_components"
+	@echo "... detect-image-demo"
 	@echo "... facedetection"
 	@echo "... benchmark"
-	@echo "... facedetection_shared"
-	@echo "... detect-image-demo"
+	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... detect-camera-demo"
 	@echo "... example/benchmark.o"
@@ -368,15 +395,15 @@ help:
 	@echo "... example/detect-image.o"
 	@echo "... example/detect-image.i"
 	@echo "... example/detect-image.s"
-	@echo "... src/facedetectcnn-int8data.o"
-	@echo "... src/facedetectcnn-int8data.i"
-	@echo "... src/facedetectcnn-int8data.s"
 	@echo "... src/facedetectcnn-model.o"
 	@echo "... src/facedetectcnn-model.i"
 	@echo "... src/facedetectcnn-model.s"
 	@echo "... src/facedetectcnn.o"
 	@echo "... src/facedetectcnn.i"
 	@echo "... src/facedetectcnn.s"
+	@echo "... src/yunet_epoch_81-int8data.o"
+	@echo "... src/yunet_epoch_81-int8data.i"
+	@echo "... src/yunet_epoch_81-int8data.s"
 .PHONY : help
 
 

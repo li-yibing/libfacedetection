@@ -79,7 +79,7 @@ benchmark_EXTERNAL_OBJECTS =
 
 benchmark: CMakeFiles/benchmark.dir/example/benchmark.cpp.o
 benchmark: CMakeFiles/benchmark.dir/build.make
-benchmark: libfacedetection.a
+benchmark: libfacedetection.so.v0.0.1
 benchmark: /usr/local/lib/libopencv_shape.so.3.2.0
 benchmark: /usr/local/lib/libopencv_stitching.so.3.2.0
 benchmark: /usr/local/lib/libopencv_superres.so.3.2.0
